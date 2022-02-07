@@ -3,6 +3,9 @@
 class NoNumbersKB
 {
 
+    function zero() {
+        return 0;
+    }
     function one() {
         return 1;
     }
