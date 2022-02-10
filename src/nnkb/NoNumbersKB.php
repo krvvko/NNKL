@@ -1,6 +1,7 @@
 <?php
 
-namespace KrvvkoHuh\NoNumbersKeyboardLibrary;
+namespace KrvvkoHuh\NoNumbersKeyboardLibrary\nnkb;
+
 class NoNumbersKB
 {
 

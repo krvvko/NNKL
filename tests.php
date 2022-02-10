@@ -1,6 +1,6 @@
 <?php
 
-use KrvvkoHuh\NoNumbersKeyboardLibrary\NoNumbersKB;
+use KrvvkoHuh\NoNumbersKeyboardLibrary\nnkb\NoNumbersKB;
 
 require_once('NoNumbersKB.php');
 
