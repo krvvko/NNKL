@@ -32,8 +32,8 @@ ___
 Let's assume that there is a broken key ```5``` on your keyboard:
 
 ```php
-// Create namespace and an nnkb (NoNumberKeyBoard) object
-namespace KrvvkoHuh\NoNumbersKeyboardLibrary\nnkb;
+// Create use and an nnkb (NoNumberKeyBoard) object
+use KrvvkoHuh\NoNumbersKeyboardLibrary\NoNumbersKB;
 $nnkb = new NoNumbersKB();
 ```
 Now we can complete all basic computer operations, you just need to 
