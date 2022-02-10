@@ -1,6 +1,7 @@
 {
     "name": "krvvko_huh/no-numbers-keyboard-library",
     "description": "This library was created for users that in some reasons don't have access to numbers on their keyboards.",
+    "license": "MIT",
     "type": "library",
     "autoload": {
         "psr-4": {
