@@ -8,8 +8,8 @@
 ___
 ## File System:
 
-- `~/NoNumbersKB.php` - Main Library Class
-- `~/main.php` - Examples
+- `~/src/nnkb/NoNumbersKB.php` - Main Library Class
+- `~/examples.php` - Examples
 - `~/src/img` - Images folder
 
 ## Basic Info:
@@ -21,12 +21,20 @@ to numbers on their keyboards.
  - You've been typing too many numbers, so the keys erased and are not visible anymore? 
 > **Then this Library is made for you!** 
 ___
+## Installation:
+Install the library by using [composer](https://getcomposer.org/):
+```php
+composer require krvvko_huh/no-numbers-keyboard-library
+```
+
+___
 ## Examples:
 Let's assume that there is a broken key ```5``` on your keyboard:
 
 ```php
-// Create a nnkb (NoNumberKeyBoard) object
-use KrvvkoHuh\NoNumbersKeyboardLibrary\nnkb\NoNumbersKB;$nnkb = new NoNumbersKB();
+// Create namespace and an nnkb (NoNumberKeyBoard) object
+namespace KrvvkoHuh\NoNumbersKeyboardLibrary\nnkb;
+$nnkb = new NoNumbersKB();
 ```
 Now we can complete all basic computer operations, you just need to 
 assign the variable to the broken key!
