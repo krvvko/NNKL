@@ -4,7 +4,7 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "KrvvkoHuh\\NoNumbersKeyboardLibrary\\": "src/"
+            "KrvvkoHuh\\NoNumbersKeyboardLibrary\\": "src/nnkb/"
         }
     },
     "require": {
