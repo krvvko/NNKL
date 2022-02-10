@@ -23,9 +23,10 @@ to numbers on their keyboards.
 ___
 ## Examples:
 Let's assume that there is a broken key ```5``` on your keyboard:
+
 ```php
 // Create a nnkb (NoNumberKeyBoard) object
-$nnkb = new NoNumbersKB();
+use KrvvkoHuh\NoNumbersKeyboardLibrary\NoNumbersKB;$nnkb = new NoNumbersKB();
 ```
 Now we can complete all basic computer operations, you just need to 
 assign the variable to the broken key!
