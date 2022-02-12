@@ -8,7 +8,6 @@ require_once('NoNumbersKB.php');
 // Creating the object for users that have no access to numbers on keyboard
 $nnkb = new NoNumbersKB();
 
-
 $five = $nnkb->five();             // Number 5
 $nine = $nnkb->nine();             // Number 9
 

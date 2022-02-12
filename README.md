@@ -27,6 +27,10 @@ Install the library by using [composer](https://getcomposer.org/):
 composer require krvvko_huh/no-numbers-keyboard-library
 ```
 
+Don't forget about autoload!
+```php
+require __DIR__ . '/vendor/autoload.php';
+```
 ___
 ## Examples:
 Let's assume that there is a broken key ```5``` on your keyboard:
@@ -36,6 +40,7 @@ Let's assume that there is a broken key ```5``` on your keyboard:
 use KrvvkoHuh\NoNumbersKeyboardLibrary\NoNumbersKB;
 $nnkb = new NoNumbersKB();
 ```
+
 Now we can complete all basic computer operations, you just need to 
 assign the variable to the broken key!
 ```php
