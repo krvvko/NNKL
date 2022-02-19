@@ -115,16 +115,4 @@ class NoNumbersKB
         return 10;
     }
 
-    function __call($name, $arguments)
-    {
-        if (is_numeric($name))  {
-
-            return $name;
-
-        }
-
-        throw new \InvalidArgumentException("Undefined function $name!");
-
-    }
-
 }
