@@ -1,6 +1,6 @@
 <?php
 
-namespace KrvvkoHuh\NoNumbersKeyboardLibrary\nnkb;
+namespace KrvvkoHuh\NoNumbersKeyboardLibrary;
 
 class NoNumbersKB
 {
@@ -10,9 +10,14 @@ class NoNumbersKB
         return 0;
     }
 
-    function nol()
+    function ноль()
     {
         return 0;
+    }
+
+    function один()
+    {
+        return 1;
     }
 
     function one()
@@ -20,17 +25,12 @@ class NoNumbersKB
         return 1;
     }
 
-    function odin()
-    {
-        return 1;
-    }
-
-    function two()
+    function два()
     {
         return 2;
     }
 
-    function dva()
+    function two()
     {
         return 2;
     }
@@ -40,7 +40,7 @@ class NoNumbersKB
         return 3;
     }
 
-    function tri()
+    function три()
     {
         return 3;
     }
@@ -50,7 +50,7 @@ class NoNumbersKB
         return 4;
     }
 
-    function chetire()
+    function четыре()
     {
         return 4;
     }
@@ -60,7 +60,7 @@ class NoNumbersKB
         return 5;
     }
 
-    function piat()
+    function пять()
     {
         return 5;
     }
@@ -70,7 +70,7 @@ class NoNumbersKB
         return 6;
     }
 
-    function shest()
+    function шесть()
     {
         return 6;
     }
@@ -80,7 +80,7 @@ class NoNumbersKB
         return 7;
     }
 
-    function sem()
+    function семь()
     {
         return 7;
     }
@@ -90,7 +90,7 @@ class NoNumbersKB
         return 8;
     }
 
-    function vosem()
+    function восемь()
     {
         return 8;
     }
@@ -100,7 +100,7 @@ class NoNumbersKB
         return 9;
     }
 
-    function deviat()
+    function девять()
     {
         return 9;
     }
@@ -110,9 +110,21 @@ class NoNumbersKB
         return 10;
     }
 
-    function deciat()
+    function десять()
     {
         return 10;
+    }
+
+    function __call($name, $arguments)
+    {
+        if (is_numeric($name))  {
+
+            return $name;
+
+        }
+
+        throw new \InvalidArgumentException("Undefined function $name!");
+
     }
 
 }
