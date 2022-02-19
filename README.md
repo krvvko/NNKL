@@ -19,6 +19,10 @@ to numbers on their keyboards.
  - Do you have a broken number key? 
  - Your fingers are too short to reach out numbers on your keyboard? 
  - You've been typing too many numbers, so the keys erased and are not visible anymore? 
+ - Have you spilled a beer or energy drink on your keyboard and the number keys have stopped working?
+ - While losing a video game, did you hit the keyboard so hard that all the number buttons flew into another dimension?
+ - Did thieves come into your house and take your number keys?
+ - Did your keyboard manufacturer turn out to be a scammer and put emoticons instead of number buttons?
 > **Then this Library is made for you!** 
 ___
 ## Installation:
