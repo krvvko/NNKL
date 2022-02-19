@@ -1,15 +1,15 @@
 <?php
 
-use KrvvkoHuh\NoNumbersKeyboardLibrary\nnkb\NoNumbersKB;
+use KrvvkoHuh\NoNumbersKeyboardLibrary\NoNumbersKB;
 
-require_once('NoNumbersKB.php');
-
+require __DIR__ . '/vendor/autoload.php';
 
 // Creating the object for users that have no access to numbers on keyboard
 $nnkb = new NoNumbersKB();
 
 $five = $nnkb->five();             // Number 5
 $nine = $nnkb->nine();             // Number 9
+
 
 echo $five;                        // Output: 5
 echo $five + 5;                    // Output: 10
